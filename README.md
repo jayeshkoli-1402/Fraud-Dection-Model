@@ -6,6 +6,22 @@ A fraud detection proof-of-concept using a credit card transaction dataset and a
 
 This repository contains a Jupyter notebook used to train and evaluate a fraud detection model on credit card transaction data.
 
+## Results
+
+| Metric         | Score  |
+|----------------|--------|
+| Precision      | 96%    |
+| Recall         | 80%    |
+| F1 Score       | 87%    |
+| False Alarms   | 3 out of 56,864 normal transactions |
+| Fraud Caught   | 78 out of 98 fraud cases |
+
+### Key Challenge
+Only 0.17% of 284,807 transactions were fraudulent.
+Standard accuracy metric gives 99.8% by predicting
+everything as normal — catching zero fraud.
+This project uses precision and recall instead.
+
 ## Files
 
 - `Train_Model.ipynb` - Main notebook for exploring the dataset, training the model, and evaluating performance.
