@@ -1,5 +1,8 @@
 .venv/
 venv/
-creditcard.csv
 __pycache__/
+*.py[cod]
 .ipynb_checkpoints/
+creditcard.csv
+FraudDetectionModel.pkl
+.DS_Store
