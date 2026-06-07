@@ -1,4 +1,4 @@
-# FroudDection
+# Fraud Dection
 
 A fraud detection proof-of-concept using a credit card transaction dataset and a machine learning model.
 
